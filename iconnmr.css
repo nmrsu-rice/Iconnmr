@@ -1,0 +1,266 @@
+.body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #FFFFFF;
+	font-size: 12px;
+}
+.tblHistory {
+	border: 1px solid #000000;
+}
+.tblCaption {
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+	color: #0000FF;
+}
+.tblH {
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #CCCCCC;
+	text-align: left;
+	vertical-align: top;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666666;
+	font-size: smaller;
+	font-variant: small-caps;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.holder {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.time {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.name {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.status {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.expno {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.exp {
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.user {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.title {
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.remarks {
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-left: 5px;
+}
+.tblNA {
+	text-align: center;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblSkip {
+	text-align: center;
+	background-color: #99FF99;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblOK {
+	text-align: center;
+	background-color: #009900;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblFail {
+	text-align: center;
+	background-color: #FF0000;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblSubmitted {
+	text-align: center;
+	background-color: #33FF33;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblCompleted {
+	text-align: center;
+	background-color: #FFFF00;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblError {
+	text-align: center;
+	background-color: #FF0000;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+.tblRunning {
+	text-align: center;
+	background-color: #80FFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	width: 2.5em;
+}
+
